@@ -97,7 +97,7 @@ a {
 
 .hero {
   background: #13653f;
-  padding: calc(4rem - 30px) 0 0rem 0; }
+  padding: calc(2.5rem - 30px) 0 0rem 0; }
   @media (min-width: 768px) {
     .hero {
       padding: calc(2rem - 30px) 0 2rem 0; } }
