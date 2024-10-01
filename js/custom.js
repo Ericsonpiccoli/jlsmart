@@ -98,10 +98,10 @@ function enviarWhatsApp() {
 
     // Monta a mensagem para o WhatsApp
     var whatsappMessage = `Nome: ${nome}\nSobrenome: ${sobrenome}\nTelefone: +55 54 99685-3250\nEmail: ${email}\nEndereço: ${endereco}\nProduto: ${produto}\nQuantidade: ${quantidade}\nMensagem: ${mensagem}`;
-    
-    // URL do WhatsApp com a mensagem formatada e o seu número
+
+    // Envia a mensagem diretamente sem abrir uma nova aba
     var whatsappURL = `https://api.whatsapp.com/send/?phone=5554996853250&text=${encodeURIComponent(whatsappMessage)}&type=phone_number&app_absent=0`;
-    
-    // Abre a URL do WhatsApp em uma nova aba
-    window.open(whatsappURL, '_blank');
+
+    // Redireciona diretamente para o WhatsApp
+    window.location.href = whatsappURL;
 }
