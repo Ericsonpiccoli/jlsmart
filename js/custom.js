@@ -105,3 +105,5 @@ function enviarWhatsApp() {
     // Redireciona diretamente para o WhatsApp
     window.location.href = whatsappURL;
 }
+
+    
