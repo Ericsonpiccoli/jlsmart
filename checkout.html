@@ -53,6 +53,7 @@
     }
 </style>
 </head> 
+<body>
 <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
     <div class="container">
         <a class="navbar-brand" href="index.html"><img src="images/jl.png" alt="Logo JL SmartHome"> <span>®</span></a>
@@ -98,217 +99,222 @@
         </div>
     </div>
 </nav>
-		<!-- End Header/Navigation -->
 
-		<!-- Start Hero Section -->
-			<div class="hero">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-lg-5">
-							<div class="intro-excerpt">
-								<h1>Orçamento</h1>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							
-						</div>
+<div id="heroCarousel" class="carousel slide hero" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+			<span class="me-1"><img src="images/jjjj.png" alt="Image" class="img-fluid"></span>
+        </div>
+    </div>
+</div>
+<div class="hero"></div>
+
+</div>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8 form-container"> <br><br>
+            <h1 style="color: rgb(32, 32, 32);">Instruções para Solicitação de Orçamento</h1>
+            <p class="mb-4" style="color: rgb(89, 90, 89);">
+                1. <strong>Preencha seus dados pessoais:</strong><br>
+                - Nome: Informe seu nome completo.<br>
+                - Sobrenome: Informe seu sobrenome.<br>
+                - Telefone: Coloque o número de telefone para contato.<br>
+                - Email: Digite seu endereço de e-mail.<br>
+                - Endereço: Forneça seu endereço completo.
+            </p>
+            <p class="mb-4" style="color: rgb(89, 90, 89);">
+                2. <strong>Selecione os produtos ou serviços desejados:</strong><br>
+                - Selecione os produtos e insira a quantidade correspondente.<br>
+            </p>
+            <p class="mb-4" style="color: rgb(89, 90, 89);">
+                3. <strong>Informações Adicionais:</strong><br>
+                - Utilize o campo de mensagem para adicionar qualquer informação relevante ou perguntas que você tenha.
+            </p>
+            <p class="mb-4" style="color: rgb(89, 90, 89);">
+                4. <strong>Envie a solicitação:</strong><br>
+                - Clique no botão "Enviar" para enviar suas informações via WhatsApp.
+            </p>
+            <p class="mb-4" style="color: rgb(89, 90, 89);"><strong>Aguarde nosso retorno:</strong> Assim que recebermos sua solicitação, entraremos em contato o mais rápido possível!</p>
+   
+            <form id="budget-form">
+                <!-- Nome e Sobrenome -->
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="nome">Nome <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="nome" required placeholder="Seu nome">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="sobrenome">Sobrenome <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="sobrenome" required placeholder="Seu sobrenome">
+                    </div>
+                </div>
+                
+                <!-- Telefone e Email -->
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="telefone">Telefone <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="telefone" required placeholder="Número de telefone">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email">Email <span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email" required placeholder="Seu email">
+                    </div>
+                </div>
+                
+                <!-- Endereço completo -->
+                <div class="form-group">
+                    <label for="endereco">Endereço completo <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="endereco" required placeholder="Rua, Número, Cidade, Estado">
+                </div>
+                
+                <!-- Selecione os produtos -->
+                <div class="form-group">
+                    <label for="produtos">Selecione os produtos/serviços desejados:</label>
+                    <div class="product-selection">
+                        <select class="form-control" id="produtos">
+                            <option value="" disabled selected>Selecione um produto</option>
+                            <option value="Energia">Energia</option>
+                            <option value="Iluminação">Iluminação</option>
+                            <option value="Lar e Entretenimento">Lar e Entretenimento</option>
+                            <option value="Segurança">Segurança</option>
+                            <option value="Controle de Acesso">Controle de Acesso</option>
+                            <option value="Energia Solar">Energia Solar</option>
+                            <option value="CFTV">CFTV</option>
+                            <option value="Alarmes">Alarmes</option>
+                            <option value="Fechaduras Eletrônicas">Fechaduras Eletrônicas</option>
+                            <option value="Videoporteiros">Videoporteiros</option>
+                            <option value="Redes">Redes</option>
+                            <option value="Comunicação">Comunicação</option>
+                            <option value="Automação Residencial">Automação Residencial</option>
+                        </select>
+                        <input type="number" class="form-control mt-2" id="quantidadeProduto" placeholder="Quantidade" min="1" disabled>
+                    </div>
+                    <small class="form-text text-muted">Selecione um produto e insira a quantidade.</small>
+                </div>
+
+                <!-- Mensagem adicional -->
+                <div class="form-group">
+                    <label for="mensagem">Mensagem adicional</label>
+                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Alguma informação adicional que gostaria de fornecer?"></textarea>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="enviarWhatsApp()">Enviar Solicitação</button>
+            </form>
+        </div>
+    </div> 
+    <br><br>
+</div>
+
+<img src="images/wallpaperflare.com_wallpaper.jpg" alt="Image" class="img-fluid">
+!-- Start Footer Section -->
+<footer class="footer-section">
+<div class="container relative">
+	<div class="sofa-img">
+		<img src="images/sofa.png" alt="Image" class="img-fluid" style="max-width: 240px; max-height: 240px;">
+	</div>
+
+	<div class="row">
+		<div class="col-lg-8">
+			<div class="subscription-form">
+				<h3 class="d-flex align-items-center">
+					<span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span>
+					<span>Inscreva-se na Newsletter</span>
+				</h3>
+
+				<form action="newsletter.php" method="POST" class="row g-3">
+					<div class="col-auto">
+						<input type="text" class="form-control" placeholder="Digite seu nome" name="name">
 					</div>
-				</div>
+					<div class="col-auto">
+						<input type="email" class="form-control" placeholder="Digite seu e-mail" name="email">
+					</div>
+					<div class="col-auto">
+						<button class="btn btn-primary" type="submit">
+							<span class="fa fa-paper-plane"></span>
+						</button>
+					</div>
+				</form>
+
 			</div>
-		<!-- End Hero Section -->
-		<div class="untree_co-section">
-			<div class="container">
-				<div class="row mb-5">
-					<div class="col-md-12">
-						<div class="border p-4 rounded" role="alert">
-							Precisa de mais informações? <a href="#">Entre em contato</a> para falar conosco.
-						</div>
-					</div>
+		</div>
+	</div>
+
+	<div class="row g-5 mb-5">
+		<div class="col-lg-4">
+			<div class="mb-4 footer-logo-wrap">
+				<a href="index.php" class="footer-logo"><img src="images/1.png" alt="JL SmartHome" class="img-fluid"><span>.</span></a>
+			</div>
+			<p class="mb-4">Nós da JL nos comprometemos em oferecer as melhores soluções em segurança e automação, garantindo qualidade e inovação em cada projeto.</p>
+
+			<ul class="list-unstyled custom-social">
+				<li><a href="https://www.facebook.com/jlsmarthome"><span class="fa fa-brands fa-facebook-f" style="font-size: 2.1em;"></span></a></li>
+				<li><a href="https://www.twitter.com/jlsmarthome"><span class="fa fa-brands fa-twitter" style="font-size: 2.1em;"></span></a></li>
+				<li><a href="https://www.instagram.com/jlsmarthome"><span class="fa fa-brands fa-instagram" style="font-size: 2.1em;"></span></a></li>
+				<li><a href="https://www.linkedin.com/jlsmarthome"><span class="fa fa-brands fa-linkedin" style="font-size: 2.1em;"></span></a></li>
+			</ul>
+		</div>
+
+		<div class="col-lg-8">
+			<div class="row links-wrap">
+				<div class="col-6 col-sm-6 col-md-3">
+					<ul class="list-unstyled">
+						<li><a href="about.php">Sobre nós</a></li>
+						<li><a href="services.php">Serviços</a></li>
+						<li><a href="blog.php">Blog</a></li>
+						<li><a href="contact.php">Contato</a></li>
+					</ul>
 				</div>
-				<div class="row">
-					<div class="col-md-6 mb-5 mb-md-0">
-						<h2 class="h3 mb-3 text-black">Solicitação de Orçamento</h2>
-						<div class="p-3 p-lg-5 border bg-white">
-							<div class="form-group">
-								<label for="s_country" class="text-black">País <span class="text-danger">*</span></label>
-								<select id="s_country" class="form-control">
-									<option value="1">Selecione um país</option>
-									<option value="2">Brasil</option>
-									<option value="3">Argentina</option>
-									<option value="4">Portugal</option>
-									<option value="5">Estados Unidos</option>
-								</select>
-							</div>
-							<div class="form-group row">
-								<div class="col-md-6">
-									<label for="s_fname" class="text-black">Nome <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="s_fname" name="s_fname" placeholder="Seu nome">
-								</div>
-								<div class="col-md-6">
-									<label for="s_lname" class="text-black">Sobrenome <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="s_lname" name="s_lname" placeholder="Seu sobrenome">
-								</div>
-							</div>
-		
-							<div class="form-group row">
-								<div class="col-md-12">
-									<label for="s_companyname" class="text-black">Nome da Empresa</label>
-									<input type="text" class="form-control" id="s_companyname" name="s_companyname" placeholder="Nome da sua empresa (opcional)">
-								</div>
-							</div>
-		
-							<div class="form-group row">
-								<div class="col-md-12">
-									<label for="s_address" class="text-black">Endereço <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="s_address" name="s_address" placeholder="Endereço completo">
-								</div>
-							</div>
-		
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Complemento (opcional)">
-							</div>
-		
-							<div class="form-group row">
-								<div class="col-md-6">
-									<label for="s_state_country" class="text-black">Estado/Região <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="s_state_country" name="s_state_country" placeholder="Estado ou região">
-								</div>
-								<div class="col-md-6">
-									<label for="s_postal_zip" class="text-black">CEP <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="s_postal_zip" name="s_postal_zip" placeholder="Código postal">
-								</div>
-							</div>
-		
-							<div class="form-group row mb-5">
-								<div class="col-md-6">
-									<label for="s_email_address" class="text-black">Endereço de E-mail <span class="text-danger">*</span></label>
-									<input type="email" class="form-control" id="s_email_address" name="s_email_address" placeholder="Seu e-mail">
-								</div>
-								<div class="col-md-6">
-									<label for="s_phone" class="text-black">Telefone <span class="text-danger">*</span></label>
-									<input type="text" class="form-control" id="s_phone" name="s_phone" placeholder="Número de telefone">
-								</div>
-							</div>
-		
-							<div class="form-group">
-								<label for="s_message" class="text-black">Informações Adicionais</label>
-								<textarea class="form-control" id="s_message" name="s_message" rows="4" placeholder="Escreva aqui suas solicitações ou especificações para o orçamento"></textarea>
-							</div>
-		
-							<div class="form-group">
-								<button type="submit" class="btn btn-primary btn-lg py-3 px-5">Solicitar Orçamento</button>
-							</div>
-						</div> <!-- /.form-container -->
-					</div>
+
+				<div class="col-6 col-sm-6 col-md-3">
+					<ul class="list-unstyled">
+						<li><a href="support.php">Suporte</a></li>
+						<li><a href="knowledge-base.php">Base de conhecimento</a></li>
+						<li><a href="live-chat.php">Chat ao vivo</a></li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-3">
+					<ul class="list-unstyled">
+						<li><a href="jobs.php">Empregos</a></li>
+						<li><a href="team.php">Nossa equipe</a></li>
+						<li><a href="leadership.php">Liderança</a></li>
+						<li><a href="privacy-policy.php">Política de Privacidade</a></li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-3">
+					<ul class="list-unstyled">
+						<li><a href="residential-solutions.php">Soluções Residenciais</a></li>
+						<li><a href="commercial-solutions.php">Soluções Comerciais</a></li>
+						<li><a href="security-automation.php">Automação de Segurança</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
-		
 
-		<!-- Start Footer Section -->
-		<footer class="footer-section">
-			<div class="container relative">
+	</div>
 
-				<div class="sofa-img">
-					<img src="images/app.png" alt="Image" class="img-fluid" style="max-width: 240px; max-height: 240px;">
-				</div>
-
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
-
-							<form action="#" class="row g-3">
-								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
-								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
-								</div>
-								<div class="col-auto">
-									<button class="btn btn-primary">
-										<span class="fa fa-paper-plane"></span>
-									</button>
-								</div>
-							</form>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="row g-5 mb-5">
-					<div class="col-lg-4">
-						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Furni<span>.</span></a></div>
-						<p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
-
-						<ul class="list-unstyled custom-social">
-							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
-						</ul>
-					</div>
-
-					<div class="col-lg-8">
-						<div class="row links-wrap">
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Knowledge base</a></li>
-									<li><a href="#">Live chat</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Our team</a></li>
-									<li><a href="#">Leadership</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Nordic Chair</a></li>
-									<li><a href="#">Kruzo Aero</a></li>
-									<li><a href="#">Ergonomic Chair</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="border-top copyright">
-					<div class="row pt-4">
-						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  <!-- License information: https://untree.co/license/ -->
-            </p>
-						</div>
-
-						<div class="col-lg-6 text-center text-lg-end">
-							<ul class="list-unstyled d-inline-flex ms-auto">
-								<li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
-
+	<div class="border-top copyright">
+		<div class="row pt-4">
+			<div class="col-lg-6">
+				<p class="mb-2 text-center text-lg-start">
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script>. Todos os Direitos Reservados Para JL SmartHome. &mdash; Projetado com carinho por <a href="https://ericsonpiccoli.it">E.R.P</a> Distribuído por <a href="https://unicc.it">Unicc.It/ Italy Roma</a>
+				</p>
 			</div>
-		</footer>
-		<!-- End Footer Section -->	
+
+			<div class="col-lg-6 text-center text-lg-end">
+				<ul class="list-unstyled d-inline-flex ms-auto">
+					<li class="me-4"><a href="terms.php">Termos &amp; Condições</a></li>
+					<li><a href="privacy-policy.php">Política de Privacidade</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+  
+</footer>
+<!-- End Footer Section -->
 
 
 <!-- AOS Animation Library -->
@@ -316,10 +322,10 @@
 
 <!-- Iniciar o AOS -->
 <script>
-    AOS.init({
-        duration: 1000, // Duração padrão das animações (1 segundo)
-        once: false,    // A animação ocorre sempre que o elemento entra na viewport
-    });
+AOS.init({
+duration: 1000, // Duração padrão das animações (1 segundo)
+once: false,    // A animação ocorre sempre que o elemento entra na viewport
+});
 </script>
 
 <!-- jQuery (necessário para o Bootstrap JavaScript) -->
@@ -331,6 +337,17 @@
 <!-- Scripts personalizados -->
 <script src="js/tiny-slider.js"></script>
 <script src="js/custom.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+        
+<!-- End Hero Section -->
+
+
+<!-- Start Footer Section -->
