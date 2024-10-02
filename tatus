@@ -1,0 +1,237 @@
+[33mcommit c587edc7cad2f167b4d8c189d42aa91869e745b8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 4be79d7 3ac39b6
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 10:11:00 2024 -0300
+
+    Concluindo a mesclagem após resolver conflitos
+
+[33mcommit 4be79d7e0735854fa98a1579f751ad20baf3cd53[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 10:07:00 2024 -0300
+
+    Descrição do que foi alterado
+
+[33mcommit 3ac39b69c740b070a91474f4ef2492aceadb7b55[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 09:12:40 2024 -0300
+
+    Update CNAME
+
+[33mcommit 62d5f0cd9e4cd71e5c0d91885da1c587e73ca8ff[m
+Merge: ee77769 80dc680
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 12:04:52 2024 +0000
+
+    Descrição do que foi alterado
+
+[33mcommit ee77769a690c99ad9eb9370862205e6b7b218c2e[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 11:17:59 2024 +0000
+
+    Adicionando CNAME para domínio personalizado www.jlsmarthome.com
+
+[33mcommit 80dc680168f3f1f9bc5d0507085a3c05a4adb72d[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 08:13:59 2024 -0300
+
+    Create CNAME
+
+[33mcommit 18ebe703d39a2414f8b0a5e53ac00015e71b63a1[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 08:13:32 2024 -0300
+
+    Delete CNAME
+
+[33mcommit aea986ddf216072daa22aa9d2df5be15c4788aa6[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 11:03:24 2024 +0000
+
+    Descrição do que foi alterado
+
+[33mcommit 6fbf1c24c34a8e8793b0cfe6817bfd957b851c0a[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 07:34:16 2024 -0300
+
+    Create CNAME
+
+[33mcommit ac3bb7c38bbb1e288f7ef1ae562c848e33a84c93[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Wed Oct 2 10:16:18 2024 +0000
+
+    Descrição do que foi alterado
+
+[33mcommit 757bbf1bb977b2d006b10598a6d89bb1ee9f065b[m[33m ([m[1;32mcodespace-animated-meme-wrvq6gr7rg96c577[m[33m)[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Tue Oct 1 21:16:14 2024 -0300
+
+    Add files via upload
+
+[33mcommit 1221a36a6472936d07e5961e4e29e0f1c02ee2a1[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Tue Oct 1 17:21:35 2024 -0300
+
+    Add files via upload
+
+[33mcommit 2401fbf54b22558f47d6318bb142864e52283f67[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Tue Oct 1 17:17:37 2024 -0300
+
+    Add files via upload
+
+[33mcommit aff35e8530c2208863252bb2cf393fbf8a549f1a[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Tue Oct 1 17:14:30 2024 -0300
+
+    Add files via upload
+
+[33mcommit 35c77ab8dedb6d05694796e386f389e5e3d57db4[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Tue Oct 1 16:45:46 2024 -0300
+
+    Add files via upload
+
+[33mcommit 2614869cf6d7dc77fb9677e19208c249e2cd88fb[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 22:16:32 2024 -0300
+
+    Add files via upload
+
+[33mcommit 9887aaabe0739d1b4924a86a7b48008c0ae57373[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 21:51:03 2024 -0300
+
+    Add files via upload
+
+[33mcommit c473fbfea1cbd481869c22dedf4f3bb2a33f7f2e[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 21:39:42 2024 -0300
+
+    Add files via upload
+
+[33mcommit 653550d35d84d92aa0aa931c7dc187389cd1ff0a[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 01:32:22 2024 -0300
+
+    Add files via upload
+
+[33mcommit bd982e4cc81caae4f29e7f5f19fac3f135dc97a1[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 01:32:05 2024 -0300
+
+    Add files via upload
+
+[33mcommit ca7ffa999ba4d5e924b0523236e0055b5fecf58f[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 01:06:30 2024 -0300
+
+    Add files via upload
+
+[33mcommit 680ffd40931923abd09631fc002b184222ed4716[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 01:03:52 2024 -0300
+
+    Add files via upload
+
+[33mcommit 166f39faf69a12f8ec050aafaf293e1a5184e10b[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 00:56:40 2024 -0300
+
+    Add files via upload
+
+[33mcommit fd47ca08516878b926d30d068fe099ff5218411b[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Mon Sep 30 00:33:21 2024 -0300
+
+    Add files via upload
+
+[33mcommit cc1d4a502e5602f0fae01ba248549acbcdef1783[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:46:33 2024 -0300
+
+    Delete Interruptor touch dimmer EWS 1101.png
+
+[33mcommit fc51657efb7e5af27cfbff5cb7b2fca85daa279f[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:46:20 2024 -0300
+
+    Delete Interruptor touch EWS 1001.png
+
+[33mcommit da351063a6508de2d717a5893d11392534c7dedc[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:46:07 2024 -0300
+
+    Delete Interruptor touch EWS 1001 intelbras.png
+
+[33mcommit a23c26637f309122ba8e7a827094ef714796331f[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:45:56 2024 -0300
+
+    Delete Integração de Dispositivos.png
+
+[33mcommit 6839ee039b02f9bdb88ef2b540e0f2605e171e1e[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:45:45 2024 -0300
+
+    Delete Integração com Assistentes.png
+
+[33mcommit 237259e829e0a00e000c981edd6a9742e21a48c4[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:45:35 2024 -0300
+
+    Delete Iluminação e Tomadas.html
+
+[33mcommit 2d4d65777a17338f7625f00cbd19740f5c070ad8[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:45:24 2024 -0300
+
+    Delete Automação Residencial.html
+
+[33mcommit 7ea05cda6586ed6f98f6a9008be53179a55345fd[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:43:56 2024 -0300
+
+    Add files via upload
+
+[33mcommit cbb9e21f616cbf65b65e2f0ee04e8bea8bc95ad5[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:43:38 2024 -0300
+
+    Add files via upload
+
+[33mcommit 82f92976d3656d3a784f4c0b335abe196d7471c6[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:42:52 2024 -0300
+
+    Add files via upload
+
+[33mcommit d84d257ae753ae116a5989774ebcaed7b3a25836[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:42:11 2024 -0300
+
+    Add files via upload
+
+[33mcommit 4fd325e22a30cae9df2ac03adf77172e4915c5e6[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:41:45 2024 -0300
+
+    Add files via upload
+
+[33mcommit 1d11a89b0a08fc4315bf44e9c06034917118f4cb[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:41:02 2024 -0300
+
+    Add files via upload
+
+[33mcommit 21867145f5efd479e5fa47be60ae15befb8084f6[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:40:09 2024 -0300
+
+    Add files via upload
+
+[33mcommit 7eeb6c87d6a89f2b4452386cbf65013c9493a7bc[m
+Author: Ericson piccoli <167118982+Ericsonpiccoli@users.noreply.github.com>
+Date:   Sun Sep 29 23:39:35 2024 -0300
+
+    Add files via upload
+
+[33mcommit eb7b7acabac6d538dc
