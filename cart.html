@@ -40,27 +40,14 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link href="css/tiny-slider.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <style>
-    /* Estilo para o submenu */
-    .dropdown-menu {
-        background-color: #13653f; /* Cor verde especificada */
-    }
-
-
-    .dropdown-item:hover {
-        background-color: #13653f; /* Corrigido: Removido o erro ## */
-        color: #ffffff; /* Texto branco ao passar o mouse */
-    }
-  </style>
 </head>
 
 <body> <!-- Abertura da tag body -->
 <!-- Início da Navegação -->
-<nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
+<nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="JL SmartHome navigation bar">
     <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="images/jl.png" alt="Logo JL SmartHome">
-            <span>®</span>
+            <img src="images/jl.png" alt="Logo of JL SmartHome" height="30"> <span>®</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -68,13 +55,13 @@
         <div class="collapse navbar-collapse" id="navbarsFurni">
             <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html" aria-label="Go to Home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Produtos</a>
+                    <a class="nav-link" href="shop.html" aria-label="View Products">Produtos</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" aria-label="Learn About Us">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -87,24 +74,28 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Info</a>
+                    <a class="nav-link" href="blog.html" aria-label="Blog and Information">Info</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contato</a>
+                    <a class="nav-link" href="contact.html" aria-label="Contact Us">Contato</a>
                 </li>
             </ul>
+
+            <!-- Seção do WhatsApp e Pedido -->
             <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
                 <li class="nav-item">
-                  <li><a href="checkout.html" target="_blank"><span class="fa fa-brands fa-whatsapp" style="font-size: 2.1em; color: #ffffff;"></span></a></li>
+                    <a href="checkout.html" target="_blank">
+                        <span class="fa fa-brands fa-whatsapp" style="font-size: 2.1em; color: #ffffff;"></span>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="checkout.html" aria-label="User Login"><strong>Pedido</strong></a>
                 </li>
             </ul>
-        </div> 
+        </div>
     </div>
 </nav>
-<!-- Fim da Navegação -->
+
 
 <!-- Início da Seção de Login -->
 <div class="untree_co-section">

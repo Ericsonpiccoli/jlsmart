@@ -920,3 +920,12 @@ a.more {
     font-size: 0.7rem; /* Tamanho do parágrafo em celulares */
   }
 }
+.dropdown-menu {
+  background-color: #13653f; /* Cor verde especificada */
+}
+
+
+.dropdown-item:hover {
+  background-color: #13653f; /* Corrigido: Removido o erro ## */
+  color: #ffffff; /* Texto branco ao passar o mouse */
+}
